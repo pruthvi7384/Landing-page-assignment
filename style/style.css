@@ -1,0 +1,40 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* =================Body=================== */
+    body{
+        height:100vh;
+        /* background: url(../assets/bg.jpeg); */
+        background: linear-gradient(to top, rgb(251, 194, 235,0.7) 0%, rgb(166, 193, 238,0.8) 100%), url(../assets/bg.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+/* ==============X===Body===X================ */
+
+/* =============Navigation Bar=============== */
+    .navbar-expand-lg .navbar-brand{
+        color:white;
+        font-weight:bold;
+    }
+    .navbar-expand-lg .navbar-nav .nav-item{
+        margin: 0px 10px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 10px;
+        padding-left: 10px;
+        color:white;
+        font-weight:bold;
+    }
+/* =========X====Navigation Bar====X=========== */
+
+/* ==============Responsive================== */
+    @media (max-width: 500px) {
+        body{
+            height: auto;
+        }
+    }
+/* ===========X===Responsive===X=============== */
